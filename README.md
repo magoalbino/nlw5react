@@ -6,6 +6,6 @@
 - boas práticas com SASS (no lugar pode ser interessante o uso de Styled Components) 
 - e Typescript
 
-##init
+## init
 - yarn dev (ou build + start)
 - yarn server (server.json simulando dados vindos de api)
