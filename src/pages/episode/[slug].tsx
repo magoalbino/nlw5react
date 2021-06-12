@@ -57,11 +57,15 @@ export default function Episode({ episode }) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
+    //pode-se buscar os dados mais acessados para adicionar no paths, para que sejam gerados estaticamente no build
+    //mas é inviável colocar todos, pois cada um é uma requisição no servidor.
+    
     return {
         paths: [],
         fallback: 'blocking'
     }
 }
+// incremental static regeneration
 
 export const getStaticProps: GetStaticProps = async (contexto) => {
 
