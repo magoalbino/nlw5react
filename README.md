@@ -10,3 +10,7 @@
 ## init
 - yarn dev (ou build + start)
 - yarn server (server.json simulando dados vindos de api)
+
+### dicas
+- https://github.com/getomni/omni (paleta de cores para tema escuro)
+- next pwa é um pacote que facilita criação de pwa
